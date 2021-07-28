@@ -1,0 +1,45 @@
+.movie-card {
+   display: flex;
+   align-items: flex-start;
+   justify-content: flex-start;
+   flex-direction: column;
+   width: 200px;
+   padding: 5px;
+   margin: 5px auto;
+   border-radius: 6px;
+   position: relative;
+
+   > img {
+      border-radius: 6px;
+      height: 250px;
+      margin-bottom: 5px;
+   }
+
+   > b {
+      font-weight: 300;
+      font-size: 14px;
+   }
+
+   .vote-average {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      top: 10px;
+      right: 35px;
+      color: #fff;
+      font-size: 10px;
+      background: #d22f27b6;
+      border-radius: 50%;
+      width: 25px;
+      height: 25px;
+   }
+}
+
+.darkmode-txt {
+   color: #8990a4;
+}
+
+.lightmode-txt {
+   color: #000;
+}

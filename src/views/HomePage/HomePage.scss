@@ -1,0 +1,14 @@
+.home-page {
+   @media (min-width: 768px){
+      width: calc(100% - 220px);
+      margin-left: 220px;
+   }
+}
+
+.darkmode {
+   background-color: #191b1f;
+}
+
+.lightmode {
+   background-color: #fefefe;
+}

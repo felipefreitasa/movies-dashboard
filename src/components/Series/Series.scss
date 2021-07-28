@@ -1,0 +1,54 @@
+.series-container {
+   background-color: #191b1f;
+   margin-top: 50px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   .banner {
+      width: 90%;
+      margin: 10px auto;
+      position: relative;
+
+      .carousel {
+         object-fit: cover;
+         height: 230px;
+
+         .carousel-image {
+            object-fit: cover;
+            height: 230px;
+            width: 100%;
+         }
+      }
+   }
+
+   > h1 {
+      color: #fff;
+      font-size: 16px;
+      font-weight: 300;
+      background: #d22f27;
+      border-radius: 20px;
+      padding: 2px 15px;
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+      > span {
+         margin-left: 10px;
+      }
+   }
+
+   .series {
+      margin: 0 auto;
+      width: 90%;
+      display: flex;
+      flex-wrap: wrap;
+   }
+}
+
+.darkmode {
+   background-color: #191b1f;
+}
+
+.lightmode {
+   background-color: #fefefe;
+}
+
